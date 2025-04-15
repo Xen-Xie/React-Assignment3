@@ -1,0 +1,18 @@
+export const filterData = [
+  { name: "Hotel Marina",
+    location: "Singapore" },
+  { name: "Skyline Restaurant",
+    location: "Singapore" },
+  { name: "Coffee Bloom",
+    location: "Paris" },
+  { name: "Zen Spa",
+    location: "Singapore" },
+  { name: "Le Gourmet",
+    location: "Paris" },
+  { name: "Sunset Diner",
+    location: "New York" },
+  { name: "Urban Retreat",
+    location: "London" },
+  { name: "Ocean View Cafe",
+    location: "Sydney" },
+];

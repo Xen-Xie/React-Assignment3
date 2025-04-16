@@ -4,6 +4,7 @@ import "slick-carousel/slick/slick-theme.css";
 import NavBar from './Components/NavBar'
 import IconArea from './Components/IconArea'
 import HeroCard from './ReuseComponents/HeroCard'
+import TrendArea from './Components/TrendArea';
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <NavBar />
       <IconArea />
       <HeroCard />
+      <TrendArea />
     </>
   )
 }

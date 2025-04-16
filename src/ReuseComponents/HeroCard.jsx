@@ -85,7 +85,7 @@ function CardWithImageCarousel({ item }) {
       <div className="p-4">
         <h3 className="text-xl font-semibold text-default">{item.title}</h3>
         <p className="text-tertiary text-sm mt-1">{item.subtitle}</p>
-        <div className="grid grid-cols-2 items-center mt-4 gap-3 sm:gap-2 lg:gap-0">
+        <div className="flex gap-2 items-center mt-4">
           <img src={item.rating} alt="Rating" className="h-6" />
           <div className="flex items-center space-x-1 text-sm">
             <h4 className="font-bold text-default">{item.ratingtitle}</h4>

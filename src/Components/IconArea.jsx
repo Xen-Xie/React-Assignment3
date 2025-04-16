@@ -5,7 +5,7 @@ function IconArea() {
   const [activeIndex, setActiveIndex] = useState(0);
 
   return (
-    <div className="font-roboto grid grid-cols-6 md:grid-cols-12 gap-4">
+    <div className="font-roboto grid grid-cols-6 md:grid-cols-12 gap-4 mt-3 mb-4">
       {Icons.map((items, index) => {
         const isActive = index === activeIndex;
 

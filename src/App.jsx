@@ -1,5 +1,6 @@
 import './App.css'
 import NavBar from './Components/NavBar'
+import IconArea from './Components/IconArea'
 
 function App() {
 
@@ -7,6 +8,7 @@ function App() {
   return (
     <>
       <NavBar />
+      <IconArea />
     </>
   )
 }

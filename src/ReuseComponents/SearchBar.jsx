@@ -25,7 +25,7 @@ const SearchBar = ({
           onFocus={() => setFocused(true)}
           onBlur={() => setFocused(false)}
           placeholder="restaurant, hotel, service...."
-          className="px-4 py-2 w-[55%] text-sm focus:outline-none placeholder:text-[#7A7A7A] text-default caret-primary"
+          className="font-roboto px-4 py-2 w-[55%] text-sm focus:outline-none placeholder:text-[#7A7A7A] text-default caret-primary"
           onKeyDown={(e) => e.key === "Enter" && handleSearch()}
         />
         <span className="text-[#7A7A7A]">|</span>
@@ -37,7 +37,7 @@ const SearchBar = ({
           onFocus={() => setFocused(true)}
           onBlur={() => setFocused(false)}
           placeholder="Singapour..."
-          className="px-4 py-2 w-[35%] text-sm focus:outline-none placeholder:text-[#7A7A7A] text-default caret-primary"
+          className="font-roboto px-4 py-2 w-[35%] text-sm focus:outline-none placeholder:text-[#7A7A7A] text-default caret-primary"
           onKeyDown={(e) => e.key === "Enter" && handleSearch()}
         />
         <button

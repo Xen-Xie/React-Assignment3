@@ -42,7 +42,7 @@ function NavBar() {
           {/* Button for Mobile Screen */}
           <div className="flex items-center gap-2 sm:hidden">
             <Icon icon="ic:round-language" className="w-8 h-8 text-[#595959]" />
-            <Button className="bg-default text-foreground text-xs sm:text-sm rounded-full hover:opacity-90 transition px-3 py-1 sm:px-4 sm:py-1.5 whitespace-nowrap">
+            <Button className="font-roboto bg-default text-foreground text-xs sm:text-sm rounded-full hover:opacity-90 transition px-3 py-1 sm:px-4 sm:py-1.5 whitespace-nowrap">
               MyFeedback for business
             </Button>
           </div>

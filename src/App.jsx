@@ -5,6 +5,7 @@ import NavBar from './Components/NavBar'
 import IconArea from './Components/IconArea'
 import HeroCard from './ReuseComponents/HeroCard'
 import TrendArea from './Components/TrendArea';
+import FeedBackArea from './Components/FeedBackArea';
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
       <IconArea />
       <HeroCard />
       <TrendArea />
+      <FeedBackArea />
     </>
   )
 }

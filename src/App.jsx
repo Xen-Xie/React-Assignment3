@@ -6,6 +6,7 @@ import IconArea from './Components/IconArea'
 import HeroCard from './ReuseComponents/HeroCard'
 import TrendArea from './Components/TrendArea';
 import FeedBackArea from './Components/FeedBackArea';
+import RecentCards from './Components/RecentCards';
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
       <HeroCard />
       <TrendArea />
       <FeedBackArea />
+      <RecentCards />
     </>
   )
 }

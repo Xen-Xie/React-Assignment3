@@ -7,6 +7,7 @@ import HeroCard from './ReuseComponents/HeroCard'
 import TrendArea from './Components/TrendArea';
 import FeedBackArea from './Components/FeedBackArea';
 import RecentCards from './Components/RecentCards';
+import Footer from './Components/Footer';
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
       <TrendArea />
       <FeedBackArea />
       <RecentCards />
+      <Footer />
     </>
   )
 }

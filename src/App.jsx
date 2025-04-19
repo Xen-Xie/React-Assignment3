@@ -6,6 +6,7 @@ import AllRestaurents from './Pages/AllRestaurents';
 import BellaItalHero from './Components/BellaItalHero';
 import BellaDiscover from './Components/BellaDiscover';
 import Information from './Components/Information';
+import OverAll from './Components/OverAll';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <BellaItalHero />
       <BellaDiscover />
       <Information />
+      <OverAll />
     </>
   )
 }

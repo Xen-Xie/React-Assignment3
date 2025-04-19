@@ -15,7 +15,7 @@ function OverAll() {
           </div>
         </div>
         <div>
-          <img src="RatingRange.svg" alt="" />
+          <img src="/RatingRange.svg" alt="" />
         </div>
       </div>
     </div>

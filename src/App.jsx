@@ -1,28 +1,23 @@
-import './App.css'
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import HomePage from './Pages/HomePage';
+// src/App.jsx
+import './App.css';
+import { Routes, Route } from "react-router-dom";
+import Layout from "./Components/Layout";
+import HomePage from "./Pages/HomePage";
+import BellaItalia from './Pages/BellaItalia';
 import AllRestaurents from './Pages/AllRestaurents';
-import BellaItalHero from './Components/BellaItalHero';
-import BellaDiscover from './Components/BellaDiscover';
-import Information from './Components/Information';
-import OverAll from './Components/OverAll';
-import ReviewArea from './Components/ReviewArea';
-
 
 function App() {
-
-
   return (
-    <>
-      <HomePage />
-      <BellaItalHero />
-      <BellaDiscover />
-      <Information />
-      <OverAll />
-      <ReviewArea />
-    </>
-  )
+    <Routes>
+      <Route path="/" element={<Layout />}>
+        <Route index element={<HomePage />} />
+        <Route path="home" element={<HomePage />} />
+        <Route path="/home/allrestaurent" element={<AllRestaurents />} />
+        <Route path='home/bellaitalia' element={<BellaItalia/>} />
+        {/* Add more routes here */}
+      </Route>
+    </Routes>
+  );
 }
 
-export default App
+export default App;

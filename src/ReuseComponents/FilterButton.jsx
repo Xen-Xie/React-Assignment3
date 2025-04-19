@@ -21,7 +21,7 @@ function FilterButton() {
         className="text-foreground bg-[#5E5E5E] flex items-center space-x-2 rounded-full"
         onClick={() => setShowFilter(!showFilter)}
       >
-        <img src="Filter.svg" alt="" className="w-5 h-5" />
+        <img src="/Filter.svg" alt="loading" className="w-5 h-5" />
         <p className="text-base">Filter</p>
       </Button>
 

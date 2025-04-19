@@ -37,28 +37,28 @@ function Information() {
           <div className="flex space-x-4 pt-2">
             <a href="#">
               <img
-                src="FaceBook.svg"
+                src="/FaceBook.svg"
                 alt="Facebook"
                 className="w-5 h-5 hover:scale-105 transition-all duration-300"
               />
             </a>
             <a href="#">
               <img
-                src="Instagram.svg"
+                src="/Instagram.svg"
                 alt="Instagram"
                 className="w-5 h-5 hover:scale-105 transition-all duration-300"
               />
             </a>
             <a href="#">
               <img
-                src="Tik.svg"
+                src="/Tik.svg"
                 alt="TikTok"
                 className="w-5 h-5 hover:scale-105 transition-all duration-300"
               />
             </a>
             <a href="#">
               <img
-                src="Wp.svg"
+                src="/Wp.svg"
                 alt="WhatsApp"
                 className="w-5 h-5 hover:scale-105 transition-all duration-300"
               />
@@ -103,7 +103,7 @@ function Information() {
                   variant="bordered"
                   className="text-primary border-primary text-base font-roboto"
                 >
-                  <img src="Download.svg" alt="" />
+                  <img src="/Download.svg" alt="" />
                   Download this menu
                 </Button>
               </a>

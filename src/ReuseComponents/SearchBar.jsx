@@ -11,7 +11,7 @@ const SearchBar = ({
   focused,
   setFocused,
   hasSearched,
-  excludeFade,  // Accept excludeFade prop
+  excludeFade, // optional: for layout control
 }) => (
   <div
     className={`flex items-center border ${
@@ -23,7 +23,7 @@ const SearchBar = ({
       value={query}
       onChange={(e) => setQuery(e.target.value)}
       onFocus={() => setFocused(true)}
-      onBlur={() => setFocused(false)}
+      onBlur={() => setTimeout(() => setFocused(false), 200)}
       placeholder="restaurant, hotel, service...."
       className="font-roboto px-4 py-2 w-[55%] text-sm focus:outline-none placeholder:text-[#7A7A7A] text-default caret-primary"
       onKeyDown={(e) => e.key === "Enter" && handleSearch()}
@@ -34,7 +34,7 @@ const SearchBar = ({
       value={location}
       onChange={(e) => setLocation(e.target.value)}
       onFocus={() => setFocused(true)}
-      onBlur={() => setFocused(false)}
+      onBlur={() => setTimeout(() => setFocused(false), 200)}
       placeholder="Singapour..."
       className="font-roboto px-4 py-2 w-[35%] text-sm focus:outline-none placeholder:text-[#7A7A7A] text-default caret-primary"
       onKeyDown={(e) => e.key === "Enter" && handleSearch()}

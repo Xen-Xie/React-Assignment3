@@ -35,7 +35,7 @@ function NavBar({ focused, setFocused }) {
         {/* Logo + mobile buttons */}
         <div className="flex items-center justify-between w-full sm:w-auto">
           <div className="flex items-center gap-2 mt-2">
-            <img src="logo.svg" alt="logo" className="w-[150px]" />
+            <img src="/logo.svg" alt="logo" className="w-[150px]" />
           </div>
 
           <div className="flex items-center gap-2 sm:hidden">

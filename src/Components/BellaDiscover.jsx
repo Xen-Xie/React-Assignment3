@@ -124,7 +124,7 @@ function BellaDiscover() {
 
             {/* Static Image */}
             <div className="mt-2">
-              <img src="Long.svg" alt="Gallery Thumbnails" className="w-full" />
+              <img src="/Long.svg" alt="Gallery Thumbnails" className="w-full" />
             </div>
           </div>
         </div>

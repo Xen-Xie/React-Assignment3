@@ -3,6 +3,7 @@ import SortButton from "../ReuseComponents/SortButton";
 import FilterButton from "../ReuseComponents/FilterButton";
 import { Review } from "../lib/reuse/ReviewCardItems";
 import { Button } from "@heroui/react";
+import Discover from "./Discover";
 
 function ReviewArea() {
   return (
@@ -50,6 +51,7 @@ function ReviewArea() {
       <div className="text-center mt-12">
         <Button className="bg-primary text-foreground px-8">Show More Reviews</Button>
       </div>
+      <Discover />
     </div>
   );
 }

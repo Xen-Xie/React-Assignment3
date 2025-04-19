@@ -2,10 +2,12 @@ import React from "react";
 import SortButton from "../ReuseComponents/SortButton";
 import RestaurentCard from "../ReuseComponents/RestaurentCard";
 import { Button } from "@heroui/react";
+import Navigates from "../Navigate";
 
 function AllRestaurents() {
   return (
     <div className="px-4 sm:px-6 lg:px-8 my-4">
+      <Navigates />
       <div className="max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-x-6 gap-y-8">
         {/* Left Side */}
         <div>

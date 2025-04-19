@@ -16,6 +16,9 @@ export default {
         default: "#232323",
         foreground : "#FFFFFF",
       },
+      backgroundImage: {
+        'bella-italia': 'url("/BellaItalia.svg")',
+      },
       fontFamily: {
         roboto: ['Roboto', 'sans-serif'],
         lexend: ['Lexend', 'serif'],

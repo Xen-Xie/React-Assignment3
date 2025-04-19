@@ -13,7 +13,18 @@ function AllRestaurents() {
             <h1 className="text-xl font-extrabold font-lexend">
               best restaurants in singapore
             </h1>
-            <SortButton />
+            <SortButton>
+            <div>
+          <img
+            src="/SortIco.svg"
+            alt="Sort Icon"
+            className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6"
+          />
+        </div>
+        <div className="text-sm sm:text-base text-foreground font-roboto">
+          Sort
+        </div>
+              </SortButton>
           </div>
           <RestaurentCard />
           <div className="flex items-center justify-center sm:justify-start">

@@ -7,6 +7,7 @@ import BellaItalHero from './Components/BellaItalHero';
 import BellaDiscover from './Components/BellaDiscover';
 import Information from './Components/Information';
 import OverAll from './Components/OverAll';
+import ReviewArea from './Components/ReviewArea';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <BellaDiscover />
       <Information />
       <OverAll />
+      <ReviewArea />
     </>
   )
 }

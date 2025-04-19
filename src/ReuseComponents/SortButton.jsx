@@ -1,30 +1,22 @@
 import { Button } from "@heroui/react";
 import { useState } from "react";
 import { X } from "lucide-react";
+import { cn } from "../lib/utlities";
 
 const sortOptions = ["All feedbacks", "Highest rated", "Oldest rated"];
 
-function SortButton() {
+function SortButton({children,className}) {
   const [isOpen, setIsOpen] = useState(false);
   const [selected, setSelected] = useState("All feedbacks");
 
   return (
-    <div className="relative inline-block text-left font-roboto">
+    <div className={cn("relative inline-block text-left font-roboto",className)}>
       {/* Sort Button */}
       <Button
         onClick={() => setIsOpen(!isOpen)}
-        className="flex items-center gap-2 px-5 py-2 sm:py-1 rounded-full text-foreground transition-all duration-300 bg-[#5D5D5D]"
+        className={cn("flex items-center gap-2 px-5 py-2 sm:py-1 rounded-full text-foreground transition-all duration-300 bg-[#5D5D5D]",className)}
       >
-        <div>
-          <img
-            src="/SortIco.svg"
-            alt="Sort Icon"
-            className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6"
-          />
-        </div>
-        <div className="text-sm sm:text-base text-foreground font-roboto">
-          Sort
-        </div>
+        {children}
       </Button>
 
       {/* Dropdown */}

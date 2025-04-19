@@ -5,4 +5,13 @@
     -ms-overflow-style: none;
     scrollbar-width: none;
   }
+  .swiper-pagination-bullet {
+    background-color: #FFFFFF !important; /* Tailwind's gray-300 */
+    opacity: 1 !important;
+  }
+  
+  .swiper-pagination-bullet-active {
+    background-color: #D9D9D9 !important; /* Tailwind's gray-800 */
+  }
+  
   

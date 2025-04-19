@@ -13,12 +13,18 @@ function SortButton() {
       {/* Sort Button */}
       <Button
         onClick={() => setIsOpen(!isOpen)}
-        className="flex items-center gap-2 px-5 py-1 rounded-full text-foreground transition-all duration-300 bg-[#5D5D5D]"
+        className="flex items-center gap-2 px-5 py-2 sm:py-1 rounded-full text-foreground transition-all duration-300 bg-[#5D5D5D]"
       >
         <div>
-          <img src="/SortIco.svg" alt="Sort Icon" className="w-5 h-5" />
+          <img
+            src="/SortIco.svg"
+            alt="Sort Icon"
+            className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6"
+          />
         </div>
-        <div className="text-base text-foreground font-roboto">Sort</div>
+        <div className="text-sm sm:text-base text-foreground font-roboto">
+          Sort
+        </div>
       </Button>
 
       {/* Dropdown */}

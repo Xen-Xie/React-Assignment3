@@ -4,6 +4,7 @@ import "slick-carousel/slick/slick-theme.css";
 import HomePage from './Pages/HomePage';
 import AllRestaurents from './Pages/AllRestaurents';
 import BellaItalHero from './Components/BellaItalHero';
+import BellaDiscover from './Components/BellaDiscover';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
     <>
       <HomePage />
       <BellaItalHero />
+      <BellaDiscover />
     </>
   )
 }
